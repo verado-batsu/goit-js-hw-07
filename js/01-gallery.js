@@ -13,7 +13,6 @@ divGalleryEl.innerHTML = markupGallery;
 
 // 2. Реалізація делегування на div.gallery і отримання url великого зображення.
 
-
 let modal;
 
 divGalleryEl.addEventListener('click', onClickGallery);
