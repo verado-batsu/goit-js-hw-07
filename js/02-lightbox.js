@@ -1,7 +1,7 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
-console.log(galleryItems);
+// console.log(galleryItems);
 
 // 1. Створення і рендер розмітки на підставі масиву даних galleryItems і наданого шаблону елемента галереї.
 const ulGalleryEl = document.getElementsByClassName('gallery')[0];

@@ -46,7 +46,6 @@ function makeModalImg(url) {
         	window.addEventListener('keydown', onKeyDownCloseModal);
 		},
 		onClose: () => {
-        	console.log('delete EventListener');
 			window.removeEventListener('keydown', onKeyDownCloseModal);
     	}
 	});
